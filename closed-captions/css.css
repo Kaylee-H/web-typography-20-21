@@ -73,6 +73,7 @@ You probably want to change the styling.
 	transition: 0s 1.7s;
 	margin-right: -.25em;
 	font-family: "brenner script";
+
 }
 .p0.on span:nth-of-type(8) {
 	opacity: 1;
@@ -109,8 +110,4 @@ Sounds.
 
 iframe {
 	transition: 1s;
-}
-/* The moment the class .sound1 is added to the body, the movie makes a turn */
-.sound1 iframe {
-	transform: rotate(1turn);
 }
