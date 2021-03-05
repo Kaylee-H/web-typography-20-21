@@ -18,7 +18,9 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 }
 .voice1 {
-	font-style: italic;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 600;;
 }
 
 /* **********************************************
