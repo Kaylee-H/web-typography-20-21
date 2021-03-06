@@ -121,7 +121,9 @@ Sounds.
 .sound1 {
 	background: black;
 }
-
+.sound2 {
+	background: rgb(23, 137, 172);
+}
 iframe {
 	transition: 1s;
 }
