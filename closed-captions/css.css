@@ -114,9 +114,9 @@ Sounds.
 	a sound starts.
 *********************************************  */
 
-/* The moment the class .sound1 is added to the body, the background is yellow */
+/* The moment the class .sound1 is added to the body, the background is black */
 .sound1 {
-	background: yellow;
+	background: black;
 }
 
 iframe {
