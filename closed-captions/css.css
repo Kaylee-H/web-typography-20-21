@@ -21,19 +21,19 @@ Feel free to adjust the defaults to your needs.
 	font-family: "Brenner Mono";
 	font-style: normal;
 	font-weight: 600;;
-	color: white;
+	color: black;
 }
 .voice2 {
 	font-family: "Brenner Mono";
 	font-style: italic;
 	font-weight: 600;;
-	color: white;
+	color: black;
 }
 .voice3 {
 	font-family: "Brenner";
 	font-style: italic;
 	font-weight: 600;;
-	color: white;
+	color: black;
 }
 /* **********************************************
 The first paragraph, with extended timing for 
