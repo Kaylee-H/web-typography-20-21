@@ -35,6 +35,12 @@ Feel free to adjust the defaults to your needs.
 	font-weight: 600;;
 	color: black;
 }
+.voice5 {
+	font-family: "Brenner mono";
+	font-style: italic;
+	font-weight: 600;
+	color: white;
+}
 .voice6 {
 	font-family: "Brenner Mono";
 	font-style: italic;
