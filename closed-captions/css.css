@@ -46,24 +46,6 @@ Feel free to adjust the defaults to your needs.
 	font-style: italic;
 	font-weight: 600;;
 	color: turquoise;
-	animation: type 10s linear infinite;
-	white-space: nowrap;
-}
-@keyframes type
-{
-	0%
-	{
-		width: 0;
-	}
-	50%
-	{
-		width: 100%;
-	}
-	100%
-	{
-		width: 0;
-	}
-
 }
 
 /* **********************************************
