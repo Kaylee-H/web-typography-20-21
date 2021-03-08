@@ -40,7 +40,7 @@ Feel free to adjust the defaults to your needs.
 	font-style: italic;
 	font-weight: 600;;
 	color: rgb(255, 255, 255);
-	animation: .8s shake infinite alternate;
+	animation: .0,1s shake infinite alternate;
 }
 
 @keyframes shake {
