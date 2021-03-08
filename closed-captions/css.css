@@ -17,6 +17,17 @@ Feel free to adjust the defaults to your needs.
 	transition: .2s;
 	opacity: 0;
 }
+#video-placeholder{
+	margin: auto;
+	padding-top: 3em;
+	display: block;
+
+	display: flex;
+	justify-content: center;
+
+	width: 500px;
+	height: 300px;
+}
 .voice1 {
 	font-family: "Brenner Mono";
 	font-style: normal;
