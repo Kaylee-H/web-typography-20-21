@@ -28,6 +28,7 @@ Feel free to adjust the defaults to your needs.
 	font-style: italic;
 	font-weight: 600;;
 	color: black;
+	Animation: .8s shake infinite alternate;
 }
 .voice3 {
 	font-family: "Brenner";
