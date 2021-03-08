@@ -46,22 +46,24 @@ Feel free to adjust the defaults to your needs.
 	font-style: italic;
 	font-weight: 600;;
 	color: rgb(255, 255, 255);
-	animation: deconstructed4 5s infinite;
+	animation: type 10s linear infinite;
+	white-space: nowrap;
 }
+@keyframes type
+{
+	0%
+	{
+		width: 0;
+	}
+	50%
+	{
+		width: 100%;
+	}
+	100%
+	{
+		width: 0;
+	}
 
-@keyframes deconstructed1 {
-  0% {
-    transform: translateX(100%);
-  }
-  26% {
-    transform: translateX(0%);
-  }
-  83% {
-    transform: translateX(-0.1%);
-  }
-  100% {
-    transform: translateX(-120%);
-  }
 }
 
 /* **********************************************
