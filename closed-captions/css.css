@@ -21,15 +21,15 @@ Feel free to adjust the defaults to your needs.
 	font-family: "Brenner Mono";
 	font-style: normal;
 	font-weight: 600;;
-	color: black;
+	color: white;
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  border-right: .15em solid white; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
+    typing 0.1s steps(30, end),
+    blink-caret .1s step-end infinite;
 }
 
 /* The typing effect */
@@ -41,7 +41,7 @@ Feel free to adjust the defaults to your needs.
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange }
+  50% { border-color: white }
 }
 
 .voice2 {
