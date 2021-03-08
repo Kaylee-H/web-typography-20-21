@@ -38,11 +38,12 @@ Feel free to adjust the defaults to your needs.
 
 .voice4 {
 	font-family: "Brenner";
-	font-style: italic;
+	font-style: bold;
 	font-weight: 600;;
 	color: black;
 	animation: .8s shake infinite alternate;
 }
+
 @keyframes shake {
 	0% { transform: skewX(-15deg); }
 	5% { transform: skewX(15deg); }
