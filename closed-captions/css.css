@@ -45,7 +45,7 @@ Feel free to adjust the defaults to your needs.
 	font-family: "Brenner Mono";
 	font-style: italic;
 	font-weight: 600;;
-	color: rgb(255, 255, 255);
+	color: turquoise;
 	animation: type 10s linear infinite;
 	white-space: nowrap;
 }
