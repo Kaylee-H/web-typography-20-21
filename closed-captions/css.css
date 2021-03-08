@@ -46,18 +46,7 @@ Feel free to adjust the defaults to your needs.
 	font-style: italic;
 	font-weight: 600;;
 	color: rgb(255, 255, 255);
-	animation: .0,1s shake infinite alternate;
 }
-
-@keyframes shake {
-  0% { transform: skewX(-15deg); }
-  5% { transform: skewX(15deg); }
-  10% { transform: skewX(-15deg); }
-  15% { transform: skewX(15deg); }
-  20% { transform: skewX(0deg); }
-  100% { transform: skewX(0deg); }  
-}
-
 
 /* **********************************************
 The first paragraph, with extended timing for 
