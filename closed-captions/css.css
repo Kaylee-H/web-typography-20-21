@@ -22,15 +22,6 @@ Feel free to adjust the defaults to your needs.
 	font-style: normal;
 	font-weight: 600;;
 	color: black;
-	animation: .8s shake infinite alternate;
-}
-@keyframes shake {
-  0% { transform: skewX(-15deg); }
-  5% { transform: skewX(15deg); }
-  10% { transform: skewX(-15deg); }
-  15% { transform: skewX(15deg); }
-  20% { transform: skewX(0deg); }
-  100% { transform: skewX(0deg); }  
 }
 
 .voice2 {
@@ -51,6 +42,15 @@ Feel free to adjust the defaults to your needs.
 	font-style: bold;
 	font-weight: 600;;
 	color: black;
+	animation: .8s shake infinite alternate;
+}
+@keyframes shake {
+  0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  10% { transform: skewX(-15deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
 }
 
 /* **********************************************
