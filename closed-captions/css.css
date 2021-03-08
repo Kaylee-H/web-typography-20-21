@@ -46,7 +46,15 @@ Feel free to adjust the defaults to your needs.
 	font-style: italic;
 	font-weight: 600;;
 	color: rgb(255, 255, 255);
+	animation: deconstructed;
 }
+<div class="deconstructed">
+  DECONSTRUCTED
+  <div>DECONSTRUCTED</div>
+  <div>DECONSTRUCTED</div>
+  <div>DECONSTRUCTED</div>
+  <div>DECONSTRUCTED</div>
+</div>
 
 /* **********************************************
 The first paragraph, with extended timing for 
