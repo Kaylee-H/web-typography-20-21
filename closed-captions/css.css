@@ -46,15 +46,23 @@ Feel free to adjust the defaults to your needs.
 	font-style: italic;
 	font-weight: 600;;
 	color: rgb(255, 255, 255);
-	animation: deconstructed;
+	animation: deconstructed4 5s infinite;
 }
-<div class="deconstructed">
-  DECONSTRUCTED
-  <div>DECONSTRUCTED</div>
-  <div>DECONSTRUCTED</div>
-  <div>DECONSTRUCTED</div>
-  <div>DECONSTRUCTED</div>
-</div>
+
+@keyframes deconstructed1 {
+  0% {
+    transform: translateX(100%);
+  }
+  26% {
+    transform: translateX(0%);
+  }
+  83% {
+    transform: translateX(-0.1%);
+  }
+  100% {
+    transform: translateX(-120%);
+  }
+}
 
 /* **********************************************
 The first paragraph, with extended timing for 
