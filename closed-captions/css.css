@@ -60,6 +60,7 @@ Feel free to adjust the defaults to your needs.
 	font-style: normal;
 	font-weight: 600;;
 	color: white;
+	text-align: center;
 }
 .voice3 {
 	font-family: "Brenner";
@@ -167,6 +168,7 @@ Sounds.
 	background: black;
 }
 .sound2 {
+	
 	background-color: black;
 }
 
