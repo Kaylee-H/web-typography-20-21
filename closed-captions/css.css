@@ -41,6 +41,7 @@ Feel free to adjust the defaults to your needs.
   animation: 
     typing 0.8s steps(100, end),
     blink-caret .1s step-end infinite;
+	text-align: center;
 }
 
 /* The typing effect */
@@ -60,7 +61,6 @@ Feel free to adjust the defaults to your needs.
 	font-style: normal;
 	font-weight: 600;;
 	color: white;
-	text-align: center;
 }
 .voice3 {
 	font-family: "Brenner";
