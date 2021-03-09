@@ -28,7 +28,7 @@ Feel free to adjust the defaults to your needs.
 	width: 500px;
 	height: 300px;
 }
-.voice0{
+.voice0 {
 	font-family: "Brenner Mono";
 	font-style: normal;
 	font-weight: 600;;
@@ -83,8 +83,8 @@ Feel free to adjust the defaults to your needs.
 }
 
 .voice2 {
-	font-family: "Brenner Sans";
-	font-style: normal;
+	font-family: "Brenner Mono Regular";
+	font-style: italic;
 	font-weight: 600;;
 	color: white;
 }
