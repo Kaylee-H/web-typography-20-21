@@ -198,13 +198,15 @@ Sounds.
 /* The moment the class .sound1 is added to the body, the background is black */
 .sound1 {
 	background: black;
+	transform: rotate(1turn);
 }
+
+.sound1 iframe {
+	
+}
+
 .sound2 {
 	background-color: darkslategrey;
 }
 
 
-
-iframe {
-	transition: 1s;
-}
