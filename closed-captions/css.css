@@ -194,8 +194,8 @@ Sounds.
 	background: black;
 }
 .sound2 {
-	background-repeat: 19;
-	background-color: grey;
+	background-color: darkslategrey;
+}
 
 iframe {
 	transition: 1s;
