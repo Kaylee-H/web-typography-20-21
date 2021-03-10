@@ -144,41 +144,26 @@ iframe {
 }
 
 .sound3 {
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
+	overflow: visible; /* Ensures the content is not revealed until the animation */
+	border-top: .15em solid white; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 5 auto; /* Gives that scrolling effect as the typing happens */
+	animation: 
+	  typing 2s steps(100, end),
+	  blink-caret .5s step-end infinite;
   }
-  .Scan {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-
-    width: 200%;
-    height: 100px;
-
-    /* linear-gradient() make a light */
-    background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0),
-      rgba(255, 255, 255, 0.65),
-      rgba(255, 255, 255, 0)
-    );
-
-    /* rotate light */
-    transform-origin: center center;
-    transform: translate(-100%, 50%) rotate(-60deg);
-
-    /* keyframes animation */
-    animation: ScanLights 3s linear 1s infinite;
+  
+  /* The typing effect */
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
   }
-
-  @keyframes ScanLights {
-    0% {
-        transform: translate(-100%, 50%) rotate(-60deg);
-    }
-    100% {
-        transform: translate(100%, 50%) rotate(-60deg);
-    }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: white }
   }
+  
+
+
