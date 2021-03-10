@@ -37,7 +37,7 @@ Feel free to adjust the defaults to your needs.
 .voice0 {
 	font-family: "Brenner Mono";
 	font-style: normal;
-	font-weight: 600;;
+	font-weight: 150;;
 	color: black;
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid black; /* The typwriter cursor */
@@ -64,7 +64,7 @@ Feel free to adjust the defaults to your needs.
 .voice1 {
 	font-family: "Brenner Mono";
 	font-style: normal;
-	font-weight: 300;;
+	font-weight: 150;;
 	color: white;
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid white; /* The typwriter cursor */
@@ -97,14 +97,14 @@ Feel free to adjust the defaults to your needs.
 .voice3 {
 	font-family: "Brenner";
 	font-style: italic;
-	font-weight: 300;;
+	font-weight: 150;;
 	color: white;
 	text-align: center;
 }
 .voice4 {
 	font-family: "Brenner Mono";
 	font-style: italic;
-	font-weight: 300;;
+	font-weight: 150;;
 	color: turquoise;
 }
 
