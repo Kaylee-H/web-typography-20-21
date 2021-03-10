@@ -131,7 +131,9 @@ iframe {
 }
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 .sound1 iframe {
-	transform: rotate(1turn);
+	transform: translateX(10px) rotate(10deg) translateY(5px);
+
+	
 }
 
 .sound2 {
