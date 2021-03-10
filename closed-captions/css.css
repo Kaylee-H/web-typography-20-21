@@ -164,7 +164,7 @@ iframe {
 	height: 3px;
 	background-color:white;
 	position:absolute;
-	z-index:9999;
+	z-index:2;
 	 -moz-animation: scan 3s infinite;
 	-webkit-animation: scan 3s infinite;
 	animation: scan 3s infinite;
