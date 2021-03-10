@@ -144,6 +144,12 @@ iframe {
 }
 
 .sound3 {
+	position: center;
+	width: 500;
+	height: 0;
+	background-color: black;
+	border: 4px solid white;
+}
   
 
 
