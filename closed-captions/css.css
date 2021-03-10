@@ -143,25 +143,69 @@ iframe {
 	background-color: black;
 }
 
-.sound3 {
-	overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid white; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 5 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 2.5s steps(100, end),
-    blink-caret .5s step-end;
+
+.sound3: preloader-scan {
+  position: fixed;
+  left: 0;
+  right: 0;
+  max-width: 200px;
+  display: table;
+  margin: 0 auto;
+  height: 100%;
+  text-align: center;
+  
+  @for $i from 1 through 24 {
+    li:nth-child(#{$i}){
+      $w: random(5);
+      width: #{$w}px;
+    }
+  }
+
+  ul {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    width: 2px;
+    height: 50px;
+    background-color: #444;
+  }
+ 
+  .laser {
+    width: 150%;
+    margin-left: -25%;
+    background-color: tomato;
+    height: 1px;
+    position: absolute;
+    top: 40%;
+    z-index: 2;
+    box-shadow: 0 0 4px red;
+    animation: scanning 2s infinite;
+  }
+
+  .diode {
+    animation: beam .01s infinite;
+  }
+
 }
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+body {
+  height: 100%;
 }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: white }
+@keyframes beam {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes scanning {
+  50% {
+    transform: translateY(75px);
+  }
 }
