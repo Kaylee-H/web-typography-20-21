@@ -144,12 +144,20 @@ iframe {
 }
 
 .sound3 {
-	position: center;
-	width: 500;
-	height: 0;
-	background-color: black;
-	border: 4px solid white;
+	animation: scan 1s;
+	-webkit-animation-direction: alternate-reverse;
+   box-shadow:white;
 }
-  
+ @-webkit-keyframes scan {
+   0%, 100% {
+	 -webkit-transform: translateY(0);
+	 transform: translateY(0);
+   }
+   100% {
+	 -webkit-transform: translateY(210px);
+	 transform: translateY(240px);
+   }
+ }
+}
 
 
