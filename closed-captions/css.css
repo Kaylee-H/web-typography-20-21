@@ -113,6 +113,20 @@ Feel free to adjust the defaults to your needs.
 	color: turquoise;
 }
 
+.p7 span {
+	opacity: 0;
+	font-family: brenner;
+}
+.p7.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	font-weight: 200;
+}
+.p7.on span:nth-of-type(2) {
+	opacity: 1;
+	transition: 0s .4s;
+	margin-right: -.25em;
+	font-weight: 400;
 /* **********************************************
 Sounds.
 	You can style the whole body, or you can 
