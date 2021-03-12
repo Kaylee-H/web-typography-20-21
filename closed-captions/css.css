@@ -154,7 +154,8 @@ iframe {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
-	margin-top: 1em;
+	margin-top: auto;
+	display: inline;
 	color: white;
 	text-align: center;
 	overflow: hidden;
@@ -172,8 +173,9 @@ iframe {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
-	margin-top: 1em;
+	margin-top: auto;
 	color: white;
+	display: inline;
 	text-align: center;
 	overflow: hidden;
 	-webkit-animation: fadeinout 3s linear forwards;
@@ -190,7 +192,7 @@ iframe {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
-	margin-top: 1em;
+	margin-top: 0;
 	color:red;
 	text-align: center;
 	overflow: hidden;
