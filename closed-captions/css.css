@@ -146,7 +146,19 @@ iframe {
 }
 
 /*Downloaded from https://www.codeseek.co/jodacame/scanner-animation-css3-ozOpjJ */
- #monitor .screen
+.sound3 #sound3Text{
+	color: yellow;
+	-webkit-animation: fadeinout 1s linear forwards;
+	animation: fadeinout 3s linear forwards;
+	opacity: 0;
+} 
+
+@-webkit-keyframes fadeinout{
+	50% {
+		opacity: 1;
+	}
+}
+.sound3 #monitor .screen
   {
 	margin: 100%;
 	margin-top:100%;
@@ -157,7 +169,7 @@ iframe {
 	background-color: rgba(0,0,0,.2);
   }
   
-  #monitor .scan
+.sound3 #monitor .scan
   {
 	width:100%;
 	height: 1.5px;
@@ -165,23 +177,54 @@ iframe {
 	background-color:white;
 	position:relative;
 	z-index:2;
-	 -moz-animation: scan 3s infinite;
-	-webkit-animation: scan 3s infinite;
-	animation: scan 3s infinite;
+	 -moz-animation: scan 2s ;
+	-webkit-animation: scan 2s ;
+	animation: scan 2s ;
 	-webkit-animation-direction: alternate-reverse;
 	box-shadow:0px 0px 30px black;
-	animation-delay: 16s; 
- 	animation-iteration-count: 1;
   }
   
   @-webkit-keyframes scan {
 	0%, 100% {
-	  -webkit-transform: translateY(0);
+	  -webkit-transform: translateY(0px);
 	  transform: translateY(0);
 	}
 	100% {
-	  -webkit-transform: translateY(210px);
-	  transform: translateY(240px);
+	  -webkit-transform: translateY(240px);
+	  transform: translateY(300px);
 	}
   }
-  
+
+.sound8{
+    background-color: #666666;
+    animation: fadeout 2s forwards;
+    animation-delay: 2s;
+    -moz-animation: fadeout 2s forwards;
+    -moz-animation-delay: 2s;
+    -webkit-animation: fadeout 2s forwards;
+    -webkit-animation-delay: 2s;
+    -o-animation: fadeout 2s forwards;
+    -o-animation-delay: 2s;
+}
+
+
+@keyframes fadeout {
+    to {
+        background-color:#666666;
+    }
+}
+@-moz-keyframes fadeout {
+    to {
+        background-color: #ffffff;
+    }
+}
+@-webkit-keyframes fadeout {
+    to {
+        background-color: #ffffff;
+    }
+}
+@-o-keyframes fadeout {
+    to {
+        background-color: #ffffff;
+    }
+}
