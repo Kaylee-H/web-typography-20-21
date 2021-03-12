@@ -28,10 +28,9 @@ Feel free to adjust the defaults to your needs.
 	margin: auto;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	display: block;
-	position: static;
 
-	display: grid;
+	display: flex;
+	align-items: center;
 	justify-content: center;
 
 	width: 600px;
@@ -154,11 +153,7 @@ iframe {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
-	margin-top: auto;
-	display: inline-block;
 	color: white;
-	text-align: center;
-	overflow: hidden;
 	-webkit-animation: fadeinout 3s linear forwards;
 	animation: fadeinout 3s linear forwards;
 	opacity: 0;
@@ -173,11 +168,7 @@ iframe {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
-	margin-top: auto;
-	display: inline-block;
 	color: white;
-	text-align: center;
-	overflow: hidden;
 	-webkit-animation: fadeinout 3s linear forwards;
 	animation: fadeinout 3s linear forwards;
 	opacity: 0;
@@ -192,11 +183,7 @@ iframe {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
-	margin-top: 0;
-	display: inline-block;
 	color:red;
-	text-align: center;
-	overflow: hidden;
 	-webkit-animation: fadeinout 3s linear forwards;
 	animation: fadeinout 3s linear forwards;
 	opacity: 0;
