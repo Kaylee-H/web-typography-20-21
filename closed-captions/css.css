@@ -146,81 +146,6 @@ iframe {
 .sound2 {
 	background-color: black;
 }
-
-/* Sound teksten */
-.sound1 #sound1Text {
-	font: "Brenner Slab";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 15px;
-	color: yellow;
-	text-align: center;
-	margin-top: 5em;
-	-webkit-animation: fadeinout 3s linear forwards;
-	animation: fadeinout 3s linear forwards;
-	opacity: 0;
-} 
-@-webkit-keyframes fadeinout{
-	50% {
-		opacity: 1;
-	}
-}
-
-.sound2 #sound2Text {
-	font: "Brenner Slab";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 15px;
-	text-align: center;
-	color: yellow;
-	margin-top: -1em;
-	text-align: center;
-	-webkit-animation: fadeinout 3s linear forwards;
-	animation: fadeinout 3s linear forwards;
-	opacity: 0;
-} 
-@-webkit-keyframes fadeinout{
-	50% {
-		opacity: 1;
-	}
-}
-
-.sound3 #sound3Text {
-	font: "Brenner Slab";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 15px;
-	color:yellow;
-	margin-top: -2em;
-	text-align: center;
-	-webkit-animation: fadeinout 3s linear forwards;
-	animation: fadeinout 3s linear forwards;
-	opacity: 0;
-} 
-@-webkit-keyframes fadeinout{
-	50% {
-		opacity: 1;
-	}
-}
-
-.sound6 #sound6Text {
-	font: "Brenner Slab";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 15px;
-	color:yellow;
-	margin-top: -2em;
-	text-align: center;
-	-webkit-animation: fadeinout 3s linear forwards;
-	animation: fadeinout 3s linear forwards;
-	opacity: 0;
-} 
-@-webkit-keyframes fadeinout{
-	50% {
-		opacity: 1;
-	}
-}
-
 /*Downloaded from https://www.codeseek.co/jodacame/scanner-animation-css3-ozOpjJ */
 .sound3 #monitor .screen {
 	margin: 100%;
@@ -295,7 +220,7 @@ iframe {
 	}
 }
 
-.sound87#monitor .screen3 {
+.sound7 #monitor .screen3 {
 	margin: 100%;
 	margin-top:100%;
 	width:100%;
@@ -331,3 +256,97 @@ iframe {
 	  transform: translateY(300px);
 	}
 }
+
+/* **********************************************
+Ondertiteling per sound
+*********************************************  */
+.sound1 #sound1Text {
+	font: "Brenner Slab";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	color: yellow;
+	text-align: center;
+	margin-top: 6em;
+	-webkit-animation: fadeinout 3s linear forwards;
+	animation: fadeinout 3s linear forwards;
+	opacity: 0;
+} 
+@-webkit-keyframes fadeinout{
+	50% {
+		opacity: 1;
+	}
+}
+
+.sound2 #sound2Text{
+	font: "Brenner Slab";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	text-align: center;
+	color: yellow;
+	margin-top: -2em;
+	text-align: center;
+	-webkit-animation: fadeinout 3s linear forwards;
+	animation: fadeinout 3s linear forwards;
+	opacity: 0;
+} 
+@-webkit-keyframes fadeinout{
+	50% {
+		opacity: 1;
+	}
+}
+
+.sound3 #sound3Text {
+	font: "Brenner Slab";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	color:yellow;
+	margin-top: -2em;
+	text-align: center;
+	-webkit-animation: fadeinout 3s linear forwards;
+	animation: fadeinout 4s linear forwards;
+	opacity: 0;
+} 
+@-webkit-keyframes fadeinout{
+	50% {
+		opacity: 1;
+	}
+}
+
+.sound6 #sound6Text {
+	font: "Brenner Slab";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	color:yellow;
+	margin-top: -2em;
+	text-align: center;
+	-webkit-animation: fadeinout 2.5s linear forwards;
+	animation: fadeinout 2.5s linear forwards;
+	opacity: 0;
+} 
+@-webkit-keyframes fadeinout{
+	50% {
+		opacity: 1;
+	}
+}
+.sound7 #sound7Text {
+	font: "Brenner Slab";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	color:yellow;
+	margin-top: -2em;
+	text-align: center;
+	-webkit-animation: fadeinout 2.5s linear forwards;
+	animation: fadeinout 2.5s linear forwards;
+	opacity: 0;
+} 
+@-webkit-keyframes fadeinout{
+	50% {
+		opacity: 1;
+	}
+}
+
