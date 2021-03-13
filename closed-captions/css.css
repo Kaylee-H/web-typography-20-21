@@ -154,6 +154,8 @@ iframe {
 	font-weight: 400;
 	font-size: 15px;
 	color: white;
+	text-align: center;
+	margin-top: 5em;
 	-webkit-animation: fadeinout 3s linear forwards;
 	animation: fadeinout 3s linear forwards;
 	opacity: 0;
@@ -168,7 +170,10 @@ iframe {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
+	text-align: center;
 	color: white;
+	margin-top: -1em;
+	text-align: center;
 	-webkit-animation: fadeinout 3s linear forwards;
 	animation: fadeinout 3s linear forwards;
 	opacity: 0;
@@ -184,6 +189,26 @@ iframe {
 	font-weight: 400;
 	font-size: 15px;
 	color:red;
+	margin-top: -2em;
+	text-align: center;
+	-webkit-animation: fadeinout 3s linear forwards;
+	animation: fadeinout 3s linear forwards;
+	opacity: 0;
+} 
+
+@-webkit-keyframes fadeinout{
+	50% {
+		opacity: 1;
+	}
+}
+.sound4 #sound4Text {
+	font: "Brenner Slab";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	color:red;
+	margin-top: -2em;
+	text-align: center;
 	-webkit-animation: fadeinout 3s linear forwards;
 	animation: fadeinout 3s linear forwards;
 	opacity: 0;
