@@ -47,8 +47,8 @@ Feel free to adjust the defaults to your needs.
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
   	border-right: .15em solid white; /* The typwriter cursor */
   	white-space: wrap; /* Keeps the content on a single line */
- 	 margin: 5 auto; /* Gives that scrolling effect as the typing happens */
- 	 letter-spacing: .15em; /* Adjust as needed */
+ 	margin: 5 auto; /* Gives that scrolling effect as the typing happens */
+ 	letter-spacing: .15em; /* Adjust as needed */
   	animation: 
     typing 0.8s steps(100, end),
     blink-caret .1s step-end infinite;
@@ -74,11 +74,11 @@ Feel free to adjust the defaults to your needs.
 	color: white;
 	text-align: center;
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
- 	 border-right: .1em solid white; /* The typwriter cursor */
- 	 white-space: wrap; /* Keeps the content on a single line */
- 	 margin: 2; /* Gives that scrolling effect as the typing happens */
- 	 letter-spacing: .13em; /* Adjust as needed */
- 	 animation: 
+ 	border-right: .1em solid white; /* The typwriter cursor */
+ 	white-space: wrap; /* Keeps the content on a single line */
+ 	margin: 2; /* Gives that scrolling effect as the typing happens */
+ 	letter-spacing: .13em; /* Adjust as needed */
+ 	animation: 
     typing 0.8s steps(100, end),
     blink-caret .1s step-end infinite;
 }
@@ -153,7 +153,7 @@ iframe {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
-	color: white;
+	color: yellow;
 	text-align: center;
 	margin-top: 5em;
 	-webkit-animation: fadeinout 3s linear forwards;
@@ -165,13 +165,14 @@ iframe {
 		opacity: 1;
 	}
 }
+
 .sound2 #sound2Text {
 	font: "Brenner Slab";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
 	text-align: center;
-	color: white;
+	color: yellow;
 	margin-top: -1em;
 	text-align: center;
 	-webkit-animation: fadeinout 3s linear forwards;
@@ -183,37 +184,37 @@ iframe {
 		opacity: 1;
 	}
 }
+
 .sound3 #sound3Text {
 	font: "Brenner Slab";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
-	color:red;
+	color:yellow;
 	margin-top: -2em;
 	text-align: center;
 	-webkit-animation: fadeinout 3s linear forwards;
 	animation: fadeinout 3s linear forwards;
 	opacity: 0;
 } 
-
 @-webkit-keyframes fadeinout{
 	50% {
 		opacity: 1;
 	}
 }
-.sound4 #sound4Text {
+
+.sound6 #sound6Text {
 	font: "Brenner Slab";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
-	color:red;
+	color:yellow;
 	margin-top: -2em;
 	text-align: center;
 	-webkit-animation: fadeinout 3s linear forwards;
 	animation: fadeinout 3s linear forwards;
 	opacity: 0;
 } 
-
 @-webkit-keyframes fadeinout{
 	50% {
 		opacity: 1;
@@ -241,11 +242,13 @@ iframe {
 	 -moz-animation: scan 2s ;
 	-webkit-animation: scan 2s ;
 	animation: scan 2s ;
+	animation-iteration-count: 2;
 	-webkit-animation-direction: alternate-reverse;
-	box-shadow:0px 0px 30px black;
-  }
+	-webkit-animation-fill-mode: forwards;
+	box-shadow:0px 0px 15px white;
+}
   
-  @-webkit-keyframes scan {
+  @keyframes scan {
 	0%, 100% {
 	  -webkit-transform: translateY(0px);
 	  transform: translateY(0);
@@ -254,5 +257,77 @@ iframe {
 	  -webkit-transform: translateY(240px);
 	  transform: translateY(300px);
 	}
+}
+.sound5 #monitor .screen2 {
+	margin: 100%;
+	margin-top:100%;
+	width:100%;
+	height:100%;
+	background:transparent;
+	background-size:cover;
+	background-color: rgba(0,0,0,.2);
   }
+  
+.sound5 #monitor .scan2 {
+	width:100%;
+	height: 1.5px;
+	margin-top: -1em;
+	background-color:white;
+	position:absolute;
+	z-index:3;
+	 -moz-animation: scan 2s ;
+	-webkit-animation: scan 2s ;
+	animation: scan 2s ;
+	animation-iteration-count: 2;
+	-webkit-animation-direction: alternate-reverse;
+	-webkit-animation-fill-mode: forwards;
+	box-shadow:0px 0px 15px white;
+}
+  
+  @keyframes scan2 {
+	0%, 100% {
+	  -webkit-transform: translateY(0);
+	  transform: translateY(0);
+	}
+	100% {
+	  -webkit-transform: translateY(240px);
+	  transform: translateY(300px);
+	}
+}
 
+.sound87#monitor .screen3 {
+	margin: 100%;
+	margin-top:100%;
+	width:100%;
+	height:100%;
+	background:transparent;
+	background-size:cover;
+	background-color: rgba(0,0,0,.2);
+  }
+  
+.sound7 #monitor .scan3 {
+	width:100%;
+	height: 1.5px;
+	margin-top: -1em;
+	background-color:white;
+	position:absolute;
+	z-index:3;
+	 -moz-animation: scan 2s ;
+	-webkit-animation: scan 2s ;
+	animation: scan 2s ;
+	animation-iteration-count: 2;
+	-webkit-animation-direction: alternate-reverse;
+	-webkit-animation-fill-mode: forwards;
+	box-shadow:0px 0px 15px white;
+}
+  
+  @keyframes scan3 {
+	0%, 100% {
+	  -webkit-transform: translateY(0);
+	  transform: translateY(0);
+	}
+	100% {
+	  -webkit-transform: translateY(240px);
+	  transform: translateY(300px);
+	}
+}
