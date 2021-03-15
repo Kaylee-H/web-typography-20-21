@@ -256,11 +256,38 @@ iframe {
 	  transform: translateY(300px);
 	}
 }
+
+.sound9 {
+    background: linear-gradient(338deg,white, white, #afafaf, #666666, #3b3b3b, #000000, #000000, #000000, #000000);
+    background-size: 1600% 1600%;
+
+    -webkit-animation: AnimationName 50s ease infinite;
+    -moz-animation: AnimationName 50s ease infinite;
+    animation: AnimationName 50s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
+}
+
 .sound10 iframe {
 	animation: shake 1s cubic-bezier(.36,.07,.19,.97) both;
 	transform: translate3d(0, 0, 0);
 	backface-visibility: hidden;
 	perspective: 1000px;
+	background-color: black;
   }
   
   @keyframes shake {
@@ -357,6 +384,24 @@ Ondertiteling per sound
 	}
 }
 .sound7 #sound7Text {
+	font: "Brenner Slab";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	color:yellow;
+	margin-top: -2em;
+	text-align: center;
+	-webkit-animation: fadeinout 2.5s linear forwards;
+	animation: fadeinout 2.5s linear forwards;
+	opacity: 0;
+} 
+@-webkit-keyframes fadeinout{
+	50% {
+		opacity: 1;
+	}
+}
+
+.sound9 #sound9Text {
 	font: "Brenner Slab";
 	font-style: normal;
 	font-weight: 400;
