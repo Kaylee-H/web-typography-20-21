@@ -313,7 +313,7 @@ iframe {
 .sound9 #glow {
 	width: 700px;
 	height: 500px;
-	margin-top: -36em;
+	margin-top: -40em;
 	margin-left: 18em;
 	z-index:0;
 	border-radius: 50%;
@@ -334,6 +334,8 @@ iframe {
 	0% {opacity:0;}
 	100% {opacity:1;}
 }
+
+
 
 /* **********************************************
 Ondertiteling per sound
@@ -453,6 +455,24 @@ Ondertiteling per sound
 	margin-left: 27em;
 	text-align: center;
 	animation: fadeinout 40s linear forwards;
+	opacity: 0;
+} 
+@keyframes fadeinout{
+	50% {
+		opacity: 1;
+	}
+}
+
+.sound10 .sound10Mysty {
+	font: "Brenner Slab";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	color:yellow;
+	margin-top: -2em;
+	margin-left: 27em;
+	text-align: center;
+	animation: fadeinout 42s linear forwards;
 	opacity: 0;
 } 
 @keyframes fadeinout{
