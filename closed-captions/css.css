@@ -24,10 +24,12 @@ Feel free to adjust the defaults to your needs.
 	display: flex;
 	justify-content: center;
 }
+
 #video-placeholder{
 	margin: auto;
 	padding-top: 1em;
 	padding-bottom: 1em;
+	position:relative;
 
 	display: flex;
 	align-items: center;
@@ -40,7 +42,7 @@ Feel free to adjust the defaults to your needs.
 .voice0 {
 	font-family: "Brenner Mono";
 	font-style: normal;
-	font-weight: 300;;
+	font-weight: 300;
 	font-size: 15px;
 	color: white;
 	text-align: center;
@@ -69,7 +71,7 @@ Feel free to adjust the defaults to your needs.
 .voice1 {
 	font-family: "Brenner Mono";
 	font-style: normal;
-	font-weight: 300;;
+	font-weight: 300;
 	font-size: 15px;
 	color: white;
 	text-align: center;
@@ -96,7 +98,7 @@ Feel free to adjust the defaults to your needs.
 }
 
 .voice2 {
-	font-family: "Brenner Mono Regular";
+	font-family: "Brenner Mono";
 	font-style: italic;
 	font-weight: 300;
 	font-size: 15px;
@@ -134,17 +136,17 @@ Feel free to adjust the defaults to your needs.
 .voice3 {
 	font-family: "Brenner Sans Medium";
 	font-style: normal;
-	font-weight: 500;;
+	font-weight: 200;
 	font-size: 15px;
 	color: white;
 	text-align: center;
 }
 .voice4 {
-	font-family: "Brenner Mono";
-	font-style: italic;
-	font-weight: 300;;
+	font-family: "Brenner Slab";
+	font-style: Normal;
+	font-weight: 400;
 	font-size: 15px;
-	color: turquoise;
+	color: white;
 	text-align: center;
 }
 
@@ -175,6 +177,14 @@ iframe {
 	background-color: black;
 }
 /*Downloaded from https://www.codeseek.co/jodacame/scanner-animation-css3-ozOpjJ */
+.sound3 iframe{
+	animation: pop 1s linear 1;
+} 
+
+@keyframes pop{
+	50%  {transform: scale(1.2);}
+  } 
+
 .sound3 #monitor .screen {
 	margin: 100%;
 	margin-top:100%;
@@ -200,7 +210,6 @@ iframe {
 	-webkit-animation-fill-mode: forwards;
 	box-shadow:0px 0px 15px white;
 }
-  
   @keyframes scan {
 	0%, 100% {
 	  -webkit-transform: translateY(0px);
@@ -211,6 +220,15 @@ iframe {
 	  transform: translateY(300px);
 	}
 }
+
+.sound5 iframe{
+	animation: pop2 1s linear 1;
+} 
+
+@keyframes pop2{
+	50%  {transform: scale(1.2);}
+  }
+
 .sound5 #monitor .screen2 {
 	margin: 100%;
 	margin-top:100%;
@@ -248,6 +266,14 @@ iframe {
 	}
 }
 
+.sound7 iframe{
+	animation: pop3 1s linear 1;
+} 
+
+@keyframes pop3{
+	50%  {transform: scale(1.2);}
+  }
+
 .sound7 #monitor .screen3 {
 	margin: 100%;
 	margin-top:100%;
@@ -283,167 +309,154 @@ iframe {
 	  -webkit-transform: translateY(240px);
 	  transform: translateY(300px);
 	}
+}  
+.sound9 #glow {
+	width: 700px;
+	height: 500px;
+	margin-top: -36em;
+	margin-left: 18em;
+	z-index:0;
+	border-radius: 50%;
+	position: absolute;
+	box-shadow:
+	  inset 0 0 50px #fff,      /* inner white */
+	  inset 20px 0 80px #fff,   /* inner left magenta short */
+	  inset -20px 0 80px #fff,  /* inner right cyan short */
+	  inset 20px 0 300px #fff,  /* inner left magenta broad */
+	  inset -20px 0 300px #fff, /* inner right cyan broad */
+	  0 0 50px #fff,            /* outer white */
+	  -10px 0 80px #fff,        /* outer left magenta */
+	  10px 0 80px #fff;         /* outer right cyan */
+	  animation: fadeIn ease 41s;
+	  opacity: 0;
+} 
+  @keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
 }
-
-.sound9 {
-    background: linear-gradient(338deg,white, white, #afafaf, #666666, #3b3b3b, #000000, #000000, #000000, #000000);
-    background-size: 1600% 1600%;
-
-    -webkit-animation: AnimationName 50s ease infinite;
-    -moz-animation: AnimationName 50s ease infinite;
-    animation: AnimationName 50s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 48%}
-    50%{background-position:100% 53%}
-    100%{background-position:0% 48%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 48%}
-    50%{background-position:100% 53%}
-    100%{background-position:0% 48%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 48%}
-    50%{background-position:100% 53%}
-    100%{background-position:0% 48%}
-}
-
-.sound10 iframe {
-	animation: shake 1s cubic-bezier(.36,.07,.19,.97) both;
-	transform: translate3d(0, 0, 0);
-	backface-visibility: hidden;
-	perspective: 1000px;
-	background-color: black;
-  }
-  
-  @keyframes shake {
-	10%, 90% {
-	  transform: translate3d(-1px, 0, 0);
-	}
-	
-	20%, 80% {
-	  transform: translate3d(2px, 0, 0);
-	}
-  
-	30%, 50%, 70% {
-	  transform: translate3d(-4px, 0, 0);
-	}
-  
-	40%, 60% {
-	  transform: translate3d(4px, 0, 0);
-	}
-  }
 
 /* **********************************************
 Ondertiteling per sound
 *********************************************  */
-.sound1 #sound1Text {
+#soundtexten p {
+	opacity: 0;
+	transition: .05s;
+	position: relative;
+	width: 450px;
+	text-align: center;
+}
+#soundtexten .on {
+	opacity: 1;
+}
+#soundtexten .off {
+	transition: .2s;
+	opacity: 0;
+}
+.sound1 .sound1lowalarm {
+    font: "Brenner Slab";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: yellow;
+    text-align: center;
+	position: relative;
+    margin-top: 5em;
+	margin-left: 27em;
+	animation: fadeinout 2.5s linear forwards;
+	opacity: 1;
+} 
+@keyframes fadeinout{
+	50% {
+		opacity: 1;
+	}
+}
+
+.sound2 .sound2alarm{
 	font: "Brenner Slab";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
-	color: yellow;
 	text-align: center;
-	margin-top: 6em;
-	-webkit-animation: fadeinout 3s linear forwards;
+	color: yellow;
+	margin-top: -2em;
+	margin-left: 27em;
+	text-align: center;
+	animation: fadeinout 2.5s linear forwards;
+	opacity: 0;
+} 
+@keyframes fadeinout{
+	50% {
+		opacity: 1;
+	}
+}
+
+.sound3 .sound3scan {
+	font: "Brenner Slab";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	color:yellow;
+	margin-top: -2em;
+	margin-left: 27em;
+	text-align: center;
 	animation: fadeinout 3s linear forwards;
 	opacity: 0;
 } 
-@-webkit-keyframes fadeinout{
+@keyframes fadeinout{
 	50% {
 		opacity: 1;
 	}
 }
 
-.sound2 #sound2Text{
+.sound6 .sound6scan {
 	font: "Brenner Slab";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
-	text-align: center;
-	color: yellow;
+	color:yellow;
 	margin-top: -2em;
+	margin-left: 27em;
 	text-align: center;
-	-webkit-animation: fadeinout 3s linear forwards;
 	animation: fadeinout 3s linear forwards;
 	opacity: 0;
 } 
-@-webkit-keyframes fadeinout{
+@keyframes fadeinout{
 	50% {
 		opacity: 1;
 	}
 }
-
-.sound3 #sound3Text {
+.sound7 .sound7scan {
 	font: "Brenner Slab";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
 	color:yellow;
 	margin-top: -2em;
+	margin-left: 27em;
 	text-align: center;
-	-webkit-animation: fadeinout 3s linear forwards;
-	animation: fadeinout 4s linear forwards;
+	animation: fadeinout 3s linear forwards;
 	opacity: 0;
 } 
-@-webkit-keyframes fadeinout{
+@keyframes fadeinout{
 	50% {
 		opacity: 1;
 	}
 }
 
-.sound6 #sound6Text {
+.sound9 .sound9highpitch {
 	font: "Brenner Slab";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
 	color:yellow;
 	margin-top: -2em;
+	margin-left: 27em;
 	text-align: center;
-	-webkit-animation: fadeinout 2.5s linear forwards;
-	animation: fadeinout 2.5s linear forwards;
+	animation: fadeinout 40s linear forwards;
 	opacity: 0;
 } 
-@-webkit-keyframes fadeinout{
+@keyframes fadeinout{
 	50% {
 		opacity: 1;
 	}
 }
-.sound7 #sound7Text {
-	font: "Brenner Slab";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 15px;
-	color:yellow;
-	margin-top: -2em;
-	text-align: center;
-	-webkit-animation: fadeinout 2.5s linear forwards;
-	animation: fadeinout 2.5s linear forwards;
-	opacity: 0;
-} 
-@-webkit-keyframes fadeinout{
-	50% {
-		opacity: 1;
-	}
-}
-
-.sound9 #sound9Text {
-	font: "Brenner Slab";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 15px;
-	color:yellow;
-	margin-top: -2em;
-	text-align: center;
-	-webkit-animation: fadeinout 2.5s linear forwards;
-	animation: fadeinout 2.5s linear forwards;
-	opacity: 0;
-} 
-@-webkit-keyframes fadeinout{
-	50% {
-		opacity: 1;
-	}
-}
-
